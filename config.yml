@@ -1,0 +1,43 @@
+treechopping:
+  enabled: true
+  instantleafdecay: false
+  playertoggle: true
+  durability: true
+
+hoeharvest:
+  enabled: true
+  usesdurability: false
+
+morexp:
+  enabled: true
+  crops: true
+  cropsxp: [1,2]
+  brewing: true
+  brewingxp: [4,6]
+
+cryingportals:
+  enabled: true
+  independentportals: true
+  minheight: 3
+  minwidth: 2
+  maxheight: 20
+  maxwidth: 20
+
+godapples:
+  enabled: true
+  glorious: true
+
+creeperprotection:
+  enabled: true
+  exceptions: true
+  exceptionslist: [grass,grass_block,dirt,farmland,wheat,beetroots,cactus,carrots,sugar_cane,nether_wart,pumpkin,attached_pumpkin_stem,pumpkin_stem,melon,attached_melon_stem,melon_stem,potatoes,sweet_berry_bush]
+
+endermanprotection:
+  enabled: true
+  exceptions: false
+  exceptionslist: [grass,grass_block,dirt]
+
+ghastprotection:
+  enabled: false
+  exceptions: false
+  exceptionslist: [grass,grass_block,dirt]

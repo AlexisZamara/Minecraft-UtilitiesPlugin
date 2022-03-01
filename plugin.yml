@@ -1,0 +1,17 @@
+name: RatatoskrUtilities
+main: ratatoskr.Utilities.Main
+version: 0.0.1
+api-version: 1.16
+commands:
+  autochop:
+    description: Allows players to toggle their tree chopper. Can be disabled in config.
+    usage: /<command> [true/false]
+    permission: ratatoskr.autochop
+    permission-usage: By default all players can use this. This only affects the player himself.
+permissions:
+  ratatoskr.autochop:
+    description: allows use of autochop command
+    default: true
+  ratatoskr.*:
+    description: wildcard for config commands, currently unused.
+    default: op
